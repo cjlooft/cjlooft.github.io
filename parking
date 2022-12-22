@@ -34,12 +34,12 @@
   
 <html>
 
-<audio controls autoplay muted >
+audio controls autoplay muted 
   
   <source src= "Audio/Carefree.mp3" type="audio/mpeg">
  <source src= "Audio/Carefree.mp3.ogg" type="audio/ogg">
 
-</audio>
+<audio>
 
 
 
