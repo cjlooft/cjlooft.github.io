@@ -22,6 +22,12 @@
   
   
  </style>
+ <audio controls autoplay muted >
+  
+  <source src= "Audio/Carefree.mp3" type="audio/mpeg">
+ <source src= "Audio/Carefree.mp3.ogg" type="audio/ogg">
+
+</audio>
  
 
  <img src="Images/car-clipart-transparent-9.png" alt="Happy Driver" style="width:600px;height:300px;margin: 10px 100px">
@@ -31,17 +37,12 @@
   <h2> 1.  One-Way lanes. <br>   Drive in the RIGHT (or left) direction <br> <br> 2. Speed = less than 10 MPH ...and 5 MPH in parking lanes. <br> <br>
    3. STOP at stop signs. - don't just slow down. - it doesn't matter if no one is in the parking lot -  <br>  <br>  4. Pedestrians (people) have the "right-of-way" 
    while walking in the crosswalk. <br> <br> </h2>
+ 
+ <h1> <b> Amazon Parking Lot Rules (for Drivers) <br> </b>  part 2 </h1> 
+
+  <h2> 1.  Cell phone <br>   Stay off the phone. - or use "hands-free" calling <br> <br> 2. Don't swerve in the lanes to avoid speed-bumps <br> <br>
+   3. STOP at stop signs. - don't just slow down. <br>- if people are in the crosswalk and you don't stop/yield there could be serious consequences -  <br>  <br> 
+    4. Only drop off and pick up at designated areas. <br> - Do you know where these areas are? while walking in the crosswalk. <br> <br>  5. Don't back into parking spaces
+-that's the rule! </h2>
   
 <html>
-
-audio controls autoplay muted 
-  
-  <source src= "Audio/Carefree.mp3" type="audio/mpeg">
- <source src= "Audio/Carefree.mp3.ogg" type="audio/ogg">
-
-<audio>
-
-
-
-
-
