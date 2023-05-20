@@ -1,3 +1,5 @@
+
+
 <htmL>
 <style>
 body {
@@ -7,7 +9,7 @@ background-color: #000000;
 h1 {
 margin: 1em 2em;
 font-family: "Arial";
-font-size: 3em;
+font-size: 5em;
 color: #e81b22;
 
 
@@ -16,7 +18,7 @@ color: #e81b22;
 h2 {
 margin: 2em;
 font-family: "Verdana";
-font-size: 2em;
+font-size: 3em;
 color: #FFFFFF;
 
 
@@ -24,15 +26,16 @@ color: #FFFFFF;
 
 
 </style>
-	<audio controls autoplay >
+<audio controls autoplay >
  <source src= "Audio/04 Move Your Body.m4a" type="audio/mpeg">
  <source src= Audio/04 Move Your Body.m4a type="audio/ogg">
     </audio> 
 
 <img src="Images/tesla-logo-png-2258.png" alt="TESLA" style="width:300px;height:300px; margin: 30px ">
 
-    <h1> DYNAMIC  <iframe src="https://giphy.com/embed/faVGwcL5Nf1yjFMhIP" width="70" height="125" class="giphy-embed" allowFullScreen></iframe><sp></sp> STRETCHING</h1>
-<h2> Dynamic stretches are done before exercise to prepare your muscles for movement. You stretch your muscles while moving around. <br> <br> 
+    <h1> DYNAMIC  <iframe src="https://giphy.com/embed/faVGwcL5Nf1yjFMhIP" width="140" height="250
+        " class="giphy-embed" allowFullScreen></iframe><sp></sp> STRETCHING</h1>
+<h2> Dynamic stretches are done before exercise to prepare your muscles for movement. <br>You stretch your muscles while moving around. <br> <br> 
  Why? <br>
 Some benefits of consistent stretching: <br> 
 • Better flexibility, mobility and range of motion -ease of movement- bend, reach and turn further<br> <br>
@@ -42,5 +45,22 @@ Some benefits of consistent stretching: <br>
 
 </h2>
 
-<h1> BASIC ROUTINE </h1>
+<h1> BASIC ROUTINE </h1> <br>
+  
+  <h2> Stand tall with your feet roughly shoulder-width apart, your core engaged, and your posture tall and straight. <br>
+  * New  <br> <br>
+  DYNAMIC HUG (deltoid 'shoulder' stretch) <br>  (Use controlled motions)<br>
+  1.Reach arms out and wide.<br>
+  2. Movement -  bring your arms across your chest,<br>
+  hugging yourself -right arm on top of your left <br>
+ 3. swing your arms out wide again... <br> 
+ 4.  than swing your arms back into a hug position, <br>
+      left arm on top of your right. <br> </p>
+
+Recommended for at least 30 seconds. <br>
+      <a href="https://www.thehealthy.com/exercise/deltoid-stretch/ ">
+  for images and more information  https://www.thehealthy.com/exercise/deltoid-stretch/ 
+</a>
+    </h2>
+    
 </htmL>
