@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Red Box with Blue Box</title>
+<style>
+  .red-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative; /* Needed to position the blue box relative to this box */
+  }
+
+  .blue-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute; /* Positioned relative to the red box */
+    top: 50px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+  }
+</style>
+</head>
+<body>
+
+<div class="red-box">
+  <div class="blue-box"></div>
+</div>
+
+</body>
+</html>
