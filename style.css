@@ -1,0 +1,44 @@
+body {
+    background-image: url('forest_background.jpg'); /* Replace with your forest image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box; /* Include border in element's total width and height */
+}
+
+.container {
+    border: 20px solid #800080; /* Eggplant Purple (adjust thickness as needed) */
+    padding: 50px; /* Add some padding inside the border */
+    border-radius: 10px; /* Optional: for rounded corners */
+    text-align: center;
+    position: relative; /* For positioning the confetti container */
+}
+
+#greeting {
+    font-size: 4em; /* Adjust size as needed */
+    font-weight: bold;
+    color: #FFD700; /* Goldenrod Yellow */
+    text-transform: uppercase;
+}
+
+#confetti-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
+.confetti {
+    width: 10px;
+    height: 15px;
+    background-color: #FFD700; /* Default confetti color */
+    position: absolute;
+    opacity: 0;
+    transform-origin: center center;
+}
