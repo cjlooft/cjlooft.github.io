@@ -1,5 +1,5 @@
 body {
-    background-image: url('forest_background.jpg'); /* Replace with your forest image path */
+    background-image: url(green.png); /* Replace with your forest image path */
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
