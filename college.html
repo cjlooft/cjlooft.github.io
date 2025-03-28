@@ -1,58 +1,18 @@
-<html>
-  
-<style>
-  body {
-    background: green;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    box-sizing: border-box; /* Include border in element's total width and height */
-}
-
-.container {
-    border: 20px solid #800080; /* Eggplant Purple (adjust thickness as needed) */
-    padding: 50px; /* Add some padding inside the border */
-    border-radius: 10px; /* Optional: for rounded corners */
-    text-align: center;
-    position: relative; /* For positioning the confetti container */
-}
-
-#greeting {
-    font-size: 4em; /* Adjust size as needed */
-    font-weight: bold;
-    color: #FFD700; /* Goldenrod Yellow */
-    text-transform: uppercase;
-}
-
-#confetti-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none; /* Allow clicks to pass through */
-}
-
-.confetti {
-    width: 10px;
-    height: 15px;
-    background-color: #FFD700; /* Default confetti color */
-    position: absolute;
-    opacity: 0;
-    transform-origin: center center;
-}
-  
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Class 6010!</title>
+    <link rel="stylesheet" href="college.css">
+</head>
 <body>
 
     <div class="container">
         <h1 id="greeting">HELLO CLASS 6010!</h1>
         <div id="confetti-container"></div>
     </div>
-<script type="text/javascript" src="cjlooft.github.io/colllege.js"></script>
+
+    <script src="college.js"></script>
 </body>
 </html>
