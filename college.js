@@ -1,6 +1,6 @@
 const greeting = document.getElementById('greeting');
 const confettiContainer = document.getElementById('confetti-container');
-const colors = ['#FFD700', '#B8860B', '#EEE8AA', '#800080', '#dda0dd', '#dda0dd', '#9370db', ]; // Goldenrod shades
+const colors = ['#FFD700', '#B8860B', '#EEE8AA', '#800080', '#dda0dd', '#dda0dd', '#9370db', '#000000']; // Goldenrod shades
 let isVisible = true;
 let flashInterval;
 
@@ -27,11 +27,10 @@ function createConfetti() {
     const startY = -20; // Start above the container
     const size = Math.random() * 10 + 5;
     confetti.style.width = `${size}px`;
-    confetti.style.height = `${size * 3.5}px`; // Keep a rectangular shape
+    confetti.style.height = `${size * 2.5}px`; // Keep a rectangular shape
     confetti.style.left = `${startX}px`;
     confetti.style.top = `${startY}px`;
     confetti.style.opacity = 1;
-
     const animationDuration = Math.random() * 2 + 1; // 1 to 3 seconds
     const fallDistance = confettiContainer.offsetHeight + 20;
     const rotation = Math.random() * 360;
