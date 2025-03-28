@@ -16,7 +16,7 @@ function flashText() {
         clearInterval(flashInterval);
         greeting.style.visibility = 'visible'; // Ensure it's visible at the end
         startConfetti();
-    }, 3000); // 3000 milliseconds = 3 seconds
+    }, 10000); // 3000 milliseconds = 3 seconds
 }
 
 function createConfetti() {
@@ -27,7 +27,7 @@ function createConfetti() {
     const startY = -20; // Start above the container
     const size = Math.random() * 10 + 5;
     confetti.style.width = `${size}px`;
-    confetti.style.height = `${size * 1.5}px`; // Keep a rectangular shape
+    confetti.style.height = `${size * 8.5}px`; // Keep a rectangular shape
     confetti.style.left = `${startX}px`;
     confetti.style.top = `${startY}px`;
     confetti.style.opacity = 1;
@@ -49,7 +49,7 @@ function createConfetti() {
 
     // Remove confetti after it falls
     setTimeout(() => {
-        confetti.remove();
+        confetti.remve();
     }, animationDuration * 1000 + 500);
 }
 
