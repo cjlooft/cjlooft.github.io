@@ -1,6 +1,6 @@
 const greeting = document.getElementById('greeting');
 const confettiContainer = document.getElementById('confetti-container');
-const colors = ['#FFD700', '#B8860B', '#EEE8AA']; // Goldenrod shades
+const colors = ['#FFD700', '#B8860B', '#EEE8AA', ]; // Goldenrod shades
 let isVisible = true;
 let flashInterval;
 
@@ -16,7 +16,7 @@ function flashText() {
         clearInterval(flashInterval);
         greeting.style.visibility = 'visible'; // Ensure it's visible at the end
         startConfetti();
-    }, 10000); // 3000 milliseconds = 3 seconds
+    }, 5000); // 3000 milliseconds = 3 seconds
 }
 
 function createConfetti() {
@@ -49,17 +49,17 @@ function createConfetti() {
 
     // Remove confetti after it falls
     setTimeout(() => {
-        confetti.remve();
+        confetti.remove();
     }, animationDuration * 1000 + 500);
 }
 
 function startConfetti() {
-    const confettiInterval = setInterval(createConfetti, 100); // Create confetti every 100 milliseconds
+    const confettiInterval = setInterval(createConfetti, 50); // Create confetti every 100 milliseconds
 
     // Stop confetti after 3 seconds
     setTimeout(() => {
         clearInterval(confettiInterval);
-    }, 3000);
+    }, 5000);
 }
 
 // Start the flashing when the page loads
