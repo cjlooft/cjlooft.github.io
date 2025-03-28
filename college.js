@@ -1,6 +1,6 @@
 const greeting = document.getElementById('greeting');
 const confettiContainer = document.getElementById('confetti-container');
-const colors = ['#FFD700', '#B8860B', '#EEE8AA', ]; // Goldenrod shades
+const colors = ['#FFD700', '#B8860B', '#EEE8AA', '#800080', '#dda0dd', '#dda0dd', '#9370db', ]; // Goldenrod shades
 let isVisible = true;
 let flashInterval;
 
