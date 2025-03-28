@@ -27,7 +27,7 @@ function createConfetti() {
     const startY = -20; // Start above the container
     const size = Math.random() * 10 + 5;
     confetti.style.width = `${size}px`;
-    confetti.style.height = `${size * 2.5}px`; // Keep a rectangular shape
+    confetti.style.height = `${size * 1.5}px`; // Keep a rectangular shape
     confetti.style.left = `${startX}px`;
     confetti.style.top = `${startY}px`;
     confetti.style.opacity = 1;
