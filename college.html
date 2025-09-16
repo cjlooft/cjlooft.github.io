@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Class 6010!</title>
-    <link rel="stylesheet" href="college.css">
+    <title>Tesla's Mission Statement Challenge</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="game-container">
+        <h1>Tesla's Mission Statement Challenge</h1>
+        <p>Complete the phrase below to win! You have 60 seconds.</p>
 
-    <div class="container">
-        <h1 id="greeting">HELLO CLASS 6010!</h1>
-        <div id="confetti-container"></div>
+        <div class="phrase">
+            <span>To accelerate the world's</span>
+            <input type="text" id="blank1" placeholder="_______">
+            <span>to</span>
+            <input type="text" id="blank2" placeholder="_______">
+            <span>energy.</span>
+        </div>
+
+        <div class="controls">
+            <div id="timer">60</div>
+            <button id="startButton">Start Game</button>
+        </div>
+
+        <div id="message"></div>
     </div>
-
-    <script src="college.js"></script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
