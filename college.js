@@ -63,3 +63,4 @@ function startConfetti() {
 
 // Start the flashing when the page loads
 window.onload = flashText;
+
