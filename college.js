@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const startButton = document.getElementById('startButton');
     const timerDisplay = document.getElementById('timer');
     const blank1 = document.getElementById('blank1');
     const blank2 = document.getElementById('blank2');
@@ -9,12 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const correct2 = "sustainable";
     let timer;
     let timeLeft = 60;
-    let gameActive = false;
-
+    
     // Function to start the game
     function startGame() {
-        if (gameActive) return;
-        gameActive = true;
         timeLeft = 60;
         timerDisplay.textContent = timeLeft;
         messageDisplay.textContent = "";
@@ -22,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         blank2.value = "";
         blank1.disabled = false;
         blank2.disabled = false;
-        startButton.textContent = "Reset Game";
         
         // Start the countdown timer
         timer = setInterval(() => {
@@ -39,11 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to end the game and check answers
     function endGame(msg) {
         clearInterval(timer);
-        gameActive = false;
         blank1.disabled = true;
         blank2.disabled = true;
         messageDisplay.textContent = msg;
-        startButton.textContent = "Start Game";
     }
 
     // Function to check the user's answers
@@ -54,22 +47,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (val1 === correct1 && val2 === correct2) {
             endGame("🥳 Excellent! You got it right!");
-        } else {
-            // Provide feedback without ending the game
-            messageDisplay.textContent = "Keep trying! Those aren't quite right.";
         }
     }
-
-    // Listen for the start button click
-    startButton.addEventListener('click', () => {
-        if (!gameActive) {
-            startGame();
-        } else {
-            endGame("Game has been reset.");
-        }
-    });
 
     // Listen for input changes to check answers in real-time
     blank1.addEventListener('input', checkAnswers);
     blank2.addEventListener('input', checkAnswers);
+
+    // Call startGame() when the page loads
+    startGame();
 });
