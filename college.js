@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const messageDisplay = document.getElementById('message');
 
     const correct1 = "build";
-    const correct2 = "abundance";
+    const correct2 = "amazing";
     let timer;
     let timeLeft = 30;
     
