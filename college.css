@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 100vh;
     margin: 0;
     background-color:#0f0f0f;
 }
@@ -20,7 +20,7 @@ body {
 
 h1 {
     color: #333;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .phrase {
