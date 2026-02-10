@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Check if time has run out
             if (timeLeft <= 0) {
-                endGame("😱 Time's up! You did not complete the phrase in time.");
+                endGame("😱 Time's up!");
             }
         }, 1000); // Update every second
     }
