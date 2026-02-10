@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const blank2 = document.getElementById('blank2');
     const messageDisplay = document.getElementById('message');
 
-    const correct1 = "transition";
-    const correct2 = "sustainable";
+    const correct1 = "build";
+    const correct2 = "abundance";
     let timer;
     let timeLeft = 30;
     
