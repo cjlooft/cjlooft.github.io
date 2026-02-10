@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const correct1 = "transition";
     const correct2 = "sustainable";
     let timer;
-    let timeLeft = 60;
+    let timeLeft = 30;
     
     // Function to start the game
     function startGame() {
-        timeLeft = 60;
+        timeLeft = 30;
         timerDisplay.textContent = timeLeft;
         messageDisplay.textContent = "";
         blank1.value = "";
