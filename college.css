@@ -25,6 +25,7 @@ h1 {
 
 .phrase {
     font-size: 1.5em;
+font-color: blue;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -33,6 +34,7 @@ h1 {
     width: 140px;
     padding: 5px;
     font-size: 1em;
+font color: purple;
     text-align: cnter;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -63,6 +65,7 @@ h1 {
 #startButton {
     padding: 10px 20px;
     font-size: 1.2em;
+font-color: green;
     color: #ffffc5;
     background-color: #28a745;
     border: none;
